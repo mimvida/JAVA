@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Anumbergame {
+    
+public static void main(String[] args) {
+        Scanner user_input = new Scanner(System.in);
+        int inputnumber;
+        System.out.println("Here is a test.\nPlease enter a number."); 
+        inputnumber = user_input.nextInt();
+        if (inputnumber > 10) {
+            System.out.println(inputnumber + " is greater than 10.");
+        }else if (inputnumber == 10) {
+            System.out.println("You entered number 10.");
+        } else {
+            System.out.println(inputnumber + " is smaller than 10.");
+        }
+    }
+}    
