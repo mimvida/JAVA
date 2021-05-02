@@ -1,5 +1,6 @@
 public class Plasmatics {
     public static void main(String[] args) {
-        System.out.println("Consensus programming is dangerous to your health - the brainwashed do not know they are brainwashed."); 
+        System.out.println("Mim is playing with Java, and for the occasion, she chose this quote:");
+        System.out.println("\"Consensus programming is dangerous to your health - \nthe brainwashed do not know they are brainwashed.\"");
     }
 }
