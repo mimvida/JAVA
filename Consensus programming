@@ -1,4 +1,4 @@
-class Plasmatics {
+public class Plasmatics {
     public static void main(String[] args) {
         System.out.println("Consensus programming is dangerous to your health - the brainwashed do not know they are brainwashed."); 
     }
