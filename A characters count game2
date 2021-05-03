@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class Acharacterscountgame2 {
+
+public static void main(String[] args) {
+        Scanner user_input = new Scanner(System.in);
+        String inputcharacters;
+        int count = 0;
+        int i;
+        
+        System.out.println("Here is a test.\nPlease enter a word or a sentence."); 
+        inputcharacters = user_input.nextLine();
+               
+        //Counts each character except space and (some) punctuation marks    
+        for(i = 0; i < inputcharacters.length(); i++) {    
+            if(inputcharacters.charAt(i) != ' ' 
+            && inputcharacters.charAt(i) != '.' 
+            && inputcharacters.charAt(i) != '!' 
+            && inputcharacters.charAt(i) != '?' 
+            && inputcharacters.charAt(i) != ','
+            && inputcharacters.charAt(i) != ';'
+            && inputcharacters.charAt(i) != '-'
+            && inputcharacters.charAt(i) != ':'
+            && inputcharacters.charAt(i) != ')'
+            && inputcharacters.charAt(i) != '(')
+                count++;    
+        }  
+        //Displays the total number of characters present in the given string    
+        System.out.println("Total number of characters in a string: " + count);    
+    }    
+}   
