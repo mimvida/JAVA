@@ -4,5 +4,6 @@ public class Github {
 	    System.out.println("GitHub test");
 	    System.out.println("Test #2");
 	    System.out.println("Test #3");
+	    System.out.println("Test #4");
     }
 }
