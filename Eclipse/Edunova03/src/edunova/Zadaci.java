@@ -75,7 +75,7 @@ public class Zadaci {
 		//drugi nacin
 		System.out.println(br1+br3);
 		System.out.println((br1+br3)/(float)br2);
-*/
+
 		// Korisnik unosi dvoznamenkasti broj 
 		// Program ispisuje prvu znamenku
 		int dvoznamenkastiBroj;
@@ -89,5 +89,16 @@ public class Zadaci {
 		//drugi nacin
 		System.out.println(dvoznamenkastiBroj/10);
 	}
-
+*/
+		//provjera znanja 
+		int cijeliBroj;
+		float decimalniBroj;
+		cijeliBroj=Integer.parseInt(
+				JOptionPane.showInputDialog("Unesi cijeli broj")
+				);
+		decimalniBroj=Float.parseFloat(
+				JOptionPane.showInputDialog("Unesi decimalni broj")
+				);
+		System.out.println(cijeliBroj+decimalniBroj);
+	}
 }
