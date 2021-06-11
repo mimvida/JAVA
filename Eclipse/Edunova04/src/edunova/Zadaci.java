@@ -60,11 +60,10 @@ public class Zadaci {
 		//korisnik unosi dva decimalan broja
 		//u odnosu na odabra operaciju, program ispisuje rezultat
 		//ako je rezultat cijeli broj, ispisuje se bez .0
-		//***rjesenje je sa modulom
 		
 		float broj1;
 		float broj2;
-		float operacija;
+		int operacija;
 		float zbrajanje;
 		float oduzimanje;
 		float mnozenje;
@@ -78,22 +77,32 @@ public class Zadaci {
 		dijeljenje=broj1/broj2;
 		if(operacija<1 || operacija>4) {
 			System.out.println("GRESKA");
-		}else if(operacija==1) {
-			System.out.println("zbrajanje");
-			if((broj1+broj2)%2==0) {
-				System.out.println(broj1+broj2);
-			}else {
-				System.out.println((int)zbrajanje);
-			}
-		}else if(operacija==2) {
-			System.out.println("oduzimanje");
-			System.out.println(oduzimanje);
-		}else if(operacija==3) {
-			System.out.println("mnozenje");
-			System.out.println(mnozenje);
-		}else if(operacija==4) {
-			System.out.println("dijeljenje");
-			System.out.println(dijeljenje);	
+		}else{		
+		    if(operacija==1) {
+                if (zbrajanje==(int)zbrajanje) {
+		            System.out.println((int)zbrajanje);
+		        }else {
+		            System.out.println(zbrajanje);
+		        }
+		    }else if(operacija==2) {
+                if (4==(int)oduzimanje) {
+			        System.out.println((int)oduzimanje);
+                }else{
+			        System.out.println(oduzimanje);
+                }
+		    }else if(operacija==3) {
+                if (mnozenje==(int)mnozenje) {
+		    	    System.out.println((int)mnozenje);
+                }else{
+	    		    System.out.println(mnozenje);
+                }
+		    }else if(operacija==4) {
+                if (dijeljenje==(int)dijeljenje){
+			        System.out.println(dijeljenje);
+                }else{
+		    	    System.out.println(dijeljenje);	
+                }
+		    }
 		}
 	
 /*
