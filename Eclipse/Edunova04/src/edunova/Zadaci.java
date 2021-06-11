@@ -79,21 +79,29 @@ public class Zadaci {
 		if(operacija<1 || operacija>4) {
 			System.out.println("GRESKA");
 		}else if(operacija==1) {
-			System.out.println("zbrajanje");
-			if((broj1+broj2)%2==0) {
-				System.out.println(broj1+broj2);
-			}else {
-				System.out.println((int)zbrajanje);
-			}
+                    if (zbrajanje==(int)zbrajanje) {
+		        System.out.println((int)zbrajanje);
+		    }else {
+		        System.out.println(zbrajanje);
+		    }
 		}else if(operacija==2) {
-			System.out.println("oduzimanje");
+                    if (oduzimanje==(int)oduzimanje) {
+			System.out.println((int)oduzimanje);
+                    }else{
 			System.out.println(oduzimanje);
+                    }
 		}else if(operacija==3) {
-			System.out.println("mnozenje");
+                    if (mnozenje==(int)mnozenje) {
+			System.out.println((int)mnozenje);
+                    }else{
 			System.out.println(mnozenje);
+                    }
 		}else if(operacija==4) {
+                    if (dijeljenje==(int)dijeljenje){
 			System.out.println("dijeljenje");
+                    }else{
 			System.out.println(dijeljenje);	
+                    }
 		}
 	
 /*
