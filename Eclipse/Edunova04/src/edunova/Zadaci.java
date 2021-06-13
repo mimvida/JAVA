@@ -70,17 +70,18 @@ public class Zadaci {
 		float mnozenje;
 		float dijeljenje;
 		operacija=Integer.parseInt(JOptionPane.showInputDialog("Unesi operaciju"));
+		    if(operacija<1 || operacija>4) {
+			System.out.println("GRESKA");
+			return ;
+		    }
 		broj1=Float.parseFloat(JOptionPane.showInputDialog("Unesi prvi broj"));
 		broj2=Float.parseFloat(JOptionPane.showInputDialog("Unesi drugi broj"));
 		zbrajanje=broj1+broj2;
 		oduzimanje=broj1-broj2;
 		mnozenje=broj1*broj2;
 		dijeljenje=broj1/broj2;
-		if(operacija<1 || operacija>4) {
-			System.out.println("GRESKA");
-		}else{		
-		    if(operacija==1) {
-                if (zbrajanje==(int)zbrajanje) {
+        	    if(operacija==1) {
+                        if (zbrajanje==(int)zbrajanje) {
 		            System.out.println((int)zbrajanje);
 		        }else {
 		            System.out.println(zbrajanje);
@@ -104,7 +105,6 @@ public class Zadaci {
 		    	    System.out.println(dijeljenje);	
                 }
             }
-        }
 	
 /*
 		//Zadatak 5
