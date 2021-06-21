@@ -68,7 +68,7 @@ public class K04_ForPetlja {
 			}
 			System.out.println();
 		}
-		//domaæa zadaæa: lijepo formatirati tablicu
+		//domaæa zadaæa: lijepo formatirati tablicu (ako je manji od 10, ispisati s vodecom nulom)
 		System.out.println();
 		//preskakanje - nastavak izvoðenja petlje
 		int preskoci = 4;
