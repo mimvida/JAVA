@@ -1,8 +1,23 @@
 package edunova;
 
+import javax.swing.JOptionPane;
+
 public class Zadatak11 {
-	
-	// Za dva dana broja ispišite decimalni dio rezultata
-	// djeljenja
+	public static void main(String[] args) {
+		
+		// Za dva dana broja ispišite decimalni dio rezultata
+		// djeljenja
+		
+		float a,b,c;
+		int d,e,f;
+		a=Float.parseFloat(JOptionPane.showInputDialog("Unesi prvi broj"));
+		b=Float.parseFloat(JOptionPane.showInputDialog("Unesi prvi broj"));
+		c=a/b;
+		d=(int)a;
+		e=(int)b;
+		f=d/e;
+		System.out.println(c-f);
+	}
+
 
 }
