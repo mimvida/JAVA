@@ -5,7 +5,7 @@ public class Zadatak10 {
 
 		// Ispiši Sve parne brojeve od 3 do 47
 		
-		for(int i=3;i<48;i++) {
+		for(int i=3;i<=47;i++) {
 			if(i%2==0) {
 				System.out.println(i);
 			}

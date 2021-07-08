@@ -5,9 +5,9 @@ public class Zadatak8 {
 		
 		// Program ispisuje matricu 15 x 15
 		// tako da je svaki element matrice broj 0
-		
-		for(int i=1;i<=15;i++) {
-			for(int j=1;j<=15;j++) {
+		int a=15, b=15;
+		for(int i=1;i<=a;i++) {
+			for(int j=1;j<=b;j++) {
 				System.out.print(" 0");
 			}
 			System.out.println();
